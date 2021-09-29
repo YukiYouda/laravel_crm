@@ -22,7 +22,7 @@
                     <td>{{ $customer->email }}</td>
                     <td>{{ $customer->postcode }}</td>
                     <td>{{ $customer->address }}</td>
-                    <td>{{ $customer->phoneNumber }}</td>
+                    <td>{{ $customer->phone_number }}</td>
                 </tr>
             @endforeach
         </table>
