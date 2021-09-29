@@ -3,7 +3,8 @@
 @section('title', '新規登録')
 
 @section('content')
-    <div class="m-4">
+    <div class="body m-4">
+        <h1>新規登録画面</h1>
         @if ($errors->any())
             <div class="error">
                 <p>
@@ -17,7 +18,6 @@
             </div>
         @endif
 
-        <h1>新規登録画面</h1>
 
         <form action="{{ route('customers.store') }}" method="post">
             @csrf
@@ -37,10 +37,10 @@
                 <label for="address">住所</label>
                 <textarea name="address" class="form-control textarea" id="address" rows="5">{{ $address }}</textarea>
             </div>
-            <div class="phoneNumber mt-2 form-group">
-                <label for="phoneNumber">電話番号</label>
-                <input type="text" class="form-control w15" name="phoneNumber" id="phoneNumber"
-                    value="{{ old('phoneNumber') }}">
+            <div class="phone_number mt-2 form-group">
+                <label for="phone_number">電話番号</label>
+                <input type="text" class="form-control w15" name="phone_number" id="phone_number"
+                    value="{{ old('phone_number') }}">
             </div>
             <div class="register mt-4">
                 <button type="submit" class="btn btn-primary">登録</button>

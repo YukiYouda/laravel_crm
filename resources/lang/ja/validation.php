@@ -151,7 +151,7 @@ return [
         'email' => 'メールアドレス',
         'postcode' => '郵便番号',
         'address' => '住所',
-        'phoneNumber' => '電話番号'
+        'phone_number' => '電話番号'
     ],
 
 ];

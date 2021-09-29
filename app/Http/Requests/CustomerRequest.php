@@ -28,7 +28,7 @@ class CustomerRequest extends FormRequest
             'email' => 'required|email:rfc,dns',
             'postcode' => 'required|string|max:10',
             'address' => 'required|string',
-            'phoneNumber' => 'required|string|max:20'
+            'phone_number' => 'required|string|max:20'
         ];
     }
 }

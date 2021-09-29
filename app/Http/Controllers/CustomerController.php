@@ -47,7 +47,7 @@ class CustomerController extends Controller
         $customer->email = $request->email;
         $customer->postcode = $request->postcode;
         $customer->address = $request->address;
-        $customer->phoneNumber = $request->phoneNumber;
+        $customer->phone_number = $request->phone_number;
 
         $customer->save();
 
@@ -89,7 +89,7 @@ class CustomerController extends Controller
         $customer->email = $request->email;
         $customer->postcode = $request->postcode;
         $customer->address = $request->address;
-        $customer->phoneNumber = $request->phoneNumber;
+        $customer->phone_number = $request->phone_number;
 
         $customer->save();
 
