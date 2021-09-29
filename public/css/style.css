@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.error {
+    color: red;
+}
+
+.w15 {
+    width: 15%;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.textarea {
+    width: 30%;
+}
